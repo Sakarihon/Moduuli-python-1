@@ -1,0 +1,10 @@
+import random
+eka=random.randint(0,9)
+toka=random.randint(0,9)
+kolmas=random.randint(0,9)
+print(eka,toka,kolmas)
+eka=random.randint(1,6)
+toka=random.randint(1,6)
+kolmas=random.randint(1,6)
+neljäs=random.randint(1,6)
+print(eka,toka,kolmas,neljäs)
