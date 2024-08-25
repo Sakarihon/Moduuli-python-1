@@ -11,6 +11,4 @@ leiviskä=20*naula
 kokonaismassagrammoina=(leiviskä*eka)+(naula*toka)+(kolmas*luoti)
 kg=int(kokonaismassagrammoina/1000)
 grammoina=kokonaismassagrammoina-kg*1000
-#print(kokonaismassagrammoina)
-#print(f"Kiloina {int(kg)}, grammoina {grammoina:.2f}")
 print(f"kiloina, {kg} , grammoina,{grammoina:.2f}")
