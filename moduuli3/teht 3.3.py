@@ -1,11 +1,11 @@
 sukupuoli=input("mikä on biologinen sukupuolesi?")
 arvo=input("hemoglobiini arvo?")
 arvo=float(arvo)
-if sukupuoli=="nainen" and arvo<=175 and arvo >=113:
+if sukupuoli=="nainen" and arvo<=175 and arvo >=117:
      print("normaali")
 elif sukupuoli=="nainen" and arvo>175:
      print("korkea")
-elif sukupuoli == "nainen" and arvo < 113:
+elif sukupuoli == "nainen" and arvo < 117:
      print("alhainen")
 elif sukupuoli=="mies" and arvo<=195 and arvo >=134:
      print("normaali")
