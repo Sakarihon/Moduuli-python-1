@@ -1,5 +1,3 @@
-from operator import truediv
-
 luvut=[]
 luku=input("anna numero")
 

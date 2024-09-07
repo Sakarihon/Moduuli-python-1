@@ -1,9 +1,9 @@
 import random
 numerot=[]
-määrä=float(input("arpakuutioiden lukumäärä"))
-while määrä>0:
+määrä=int(input("arpakuutioiden lukumäärä"))
+for i in range(1,määrä):
     randomi=random.randint(1,6)
     numerot.append(randomi)
     määrä-=1
 summa=sum(numerot)
-print('summa',summa)
+print('arpakuutioiden silmälukujen summa',summa)
